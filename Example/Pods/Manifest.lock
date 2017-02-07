@@ -1,0 +1,16 @@
+PODS:
+  - SunbeamBLEPeripheralService (0.1.0)
+
+DEPENDENCIES:
+  - SunbeamBLEPeripheralService (from `../`)
+
+EXTERNAL SOURCES:
+  SunbeamBLEPeripheralService:
+    :path: ../
+
+SPEC CHECKSUMS:
+  SunbeamBLEPeripheralService: 3869239af19f5a94fc84b9c2af8a9c6567cdd033
+
+PODFILE CHECKSUM: 09fd03cc29740193f0e20c43d59a33ff6624007f
+
+COCOAPODS: 1.0.1

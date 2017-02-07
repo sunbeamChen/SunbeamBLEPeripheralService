@@ -1,0 +1,6 @@
+framework module SunbeamBLEPeripheralService {
+  umbrella header "SunbeamBLEPeripheralService-umbrella.h"
+
+  export *
+  module * { export * }
+}

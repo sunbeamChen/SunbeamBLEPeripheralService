@@ -1,0 +1,23 @@
+{
+  "name": "SunbeamBLEPeripheralService",
+  "version": "0.1.0",
+  "summary": "SunbeamBLEPeripheralService - an ble peripheral service base on core bluetooth.",
+  "homepage": "https://github.com/sunbeamChen/SunbeamBLEPeripheralService",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "sunbeamChen": "chenxun1990@126.com"
+  },
+  "source": {
+    "git": "https://github.com/sunbeamChen/SunbeamBLEPeripheralService.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source_files": "SunbeamBLEPeripheralService/Classes/**/*",
+  "public_header_files": "SunbeamBLEPeripheralService/Classes/**/*.h",
+  "frameworks": "CoreBluetooth"
+}
