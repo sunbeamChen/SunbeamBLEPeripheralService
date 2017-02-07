@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SunbeamBLEPeripheralService_Example' do
+  pod 'SunbeamBLEPeripheralService', :path => '../'
+
+  target 'SunbeamBLEPeripheralService_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
