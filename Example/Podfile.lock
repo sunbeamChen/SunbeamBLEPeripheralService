@@ -1,5 +1,5 @@
 PODS:
-  - SunbeamBLEPeripheralService (0.1.0)
+  - SunbeamBLEPeripheralService (0.1.1)
 
 DEPENDENCIES:
   - SunbeamBLEPeripheralService (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  SunbeamBLEPeripheralService: 3869239af19f5a94fc84b9c2af8a9c6567cdd033
+  SunbeamBLEPeripheralService: 194dc4e54d4f9d5a2b8a3ef3375c8081887cb199
 
 PODFILE CHECKSUM: 09fd03cc29740193f0e20c43d59a33ff6624007f
 

@@ -11,3 +11,5 @@ FOUNDATION_EXPORT double SunbeamBLEPeripheralServiceVersionNumber;
 FOUNDATION_EXPORT const unsigned char SunbeamBLEPeripheralServiceVersionString[];
 
 #import "SunbeamBLEPeripheralManager.h"
+
+#import "SunbeamCharacteristic.h"

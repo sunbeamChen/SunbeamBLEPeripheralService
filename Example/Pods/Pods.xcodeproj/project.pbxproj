@@ -94,6 +94,19 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
+		<key>0B00168AD65FA21C79CC1540DBED69D8</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>SunbeamCharacteristic.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>0D6200494F070262571412EF4C4951BA</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -121,20 +134,6 @@
 			<string>Pods-SunbeamBLEPeripheralService_Tests.framework</string>
 			<key>sourceTree</key>
 			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>158C5EBE3399A393D9907979CE26F594</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>3B45E95321A414A7D87CCF7DE2649A67</string>
-				<string>ABF412C9B2E922CA7A546407E84D119A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
 		</dict>
 		<key>165891432F8C5B80CA4661FA0D88CC49</key>
 		<dict>
@@ -176,19 +175,6 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>190A611F724B9BD73FB76462AB605E80</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>SunbeamBLEPeripheralManager.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>1DB4418AE71FC04490C92572D3AFFFB5</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -202,7 +188,7 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>26E622FD0149AC572229B99D5E3FA446</key>
+		<key>26A5F767D95B35708A07BF7CECD9CF3F</key>
 		<dict>
 			<key>fileRef</key>
 			<string>0D6200494F070262571412EF4C4951BA</string>
@@ -242,6 +228,20 @@
 			<string>A2F897A1E2DC11D29FA1ED2CEFF56D4A</string>
 			<key>productType</key>
 			<string>com.apple.product-type.framework</string>
+		</dict>
+		<key>2C85B757B82D3F01FF06E907D9EF582D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>0B00168AD65FA21C79CC1540DBED69D8</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
 		</dict>
 		<key>2D8E8EC45A3A1A1D94AE762CB5028504</key>
 		<dict>
@@ -294,13 +294,6 @@
 			<string>13D641985FC4B5487A85EC0A12E69B38</string>
 			<key>productType</key>
 			<string>com.apple.product-type.framework</string>
-		</dict>
-		<key>3B45E95321A414A7D87CCF7DE2649A67</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FFC390B06E90275FECD850B1E5589817</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
 		</dict>
 		<key>3DF7D0EB974E9C7B81E0FFF68D48EACE</key>
 		<dict>
@@ -445,10 +438,10 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>48BE59EBB7FF1CA33021EE86DECB7897</key>
+		<key>4C69A94030EA445CA9B9758D1E10E8A8</key>
 		<dict>
 			<key>fileRef</key>
-			<string>190A611F724B9BD73FB76462AB605E80</string>
+			<string>930EA3F1CFF8D792465B47A58BD6DC9C</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -459,20 +452,12 @@
 				</array>
 			</dict>
 		</dict>
-		<key>49AE9E283A6750AD83E4B951760603B9</key>
+		<key>4EFE3DE2092DF49E0872480BC07B7F90</key>
 		<dict>
-			<key>children</key>
-			<array>
-				<string>AA0514A5823CB1194A4EFAE0520E9BC3</string>
-			</array>
+			<key>fileRef</key>
+			<string>7912A10F5AB333055EDC395033CFB483</string>
 			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>SunbeamBLEPeripheralService</string>
-			<key>path</key>
-			<string>SunbeamBLEPeripheralService</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>51FD5DCB0C0D48CED1AB5974A1CBE75C</key>
 		<dict>
@@ -580,9 +565,9 @@
 			<string>D95F135F73E24D0FFFF37D5F74E11A63</string>
 			<key>buildPhases</key>
 			<array>
-				<string>158C5EBE3399A393D9907979CE26F594</string>
+				<string>DEAF7E04B7A08A32B79CB93B2D1AF205</string>
 				<string>E47D1CD86D0547B0CEA870B335A59BF9</string>
-				<string>9EBF1D4A672DAA750D4A9CDFAEDDD259</string>
+				<string>9BB7AF2D597A05CA33E7AA0758CA2803</string>
 			</array>
 			<key>buildRules</key>
 			<array/>
@@ -599,11 +584,25 @@
 			<key>productType</key>
 			<string>com.apple.product-type.framework</string>
 		</dict>
+		<key>673EAFA6DC790C04435CF207A227B278</key>
+		<dict>
+			<key>fileRef</key>
+			<string>92244E5CC995A00F16AE49C0E206A0B9</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
 		<key>6E0F70F4AC06EAAD10645D3A5D18B7A5</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>49AE9E283A6750AD83E4B951760603B9</string>
+				<string>AE3C4C56B966F34268C1FBCFB578FAF1</string>
 				<string>465727BC95495B8741A0F5CAC172C098</string>
 			</array>
 			<key>isa</key>
@@ -652,6 +651,19 @@
 			<string>text.plist.xml</string>
 			<key>path</key>
 			<string>Pods-SunbeamBLEPeripheralService_Tests-acknowledgements.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7912A10F5AB333055EDC395033CFB483</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>SunbeamCharacteristic.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -848,7 +860,20 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>932D116B21A987F6857765C813958588</key>
+		<key>92244E5CC995A00F16AE49C0E206A0B9</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>SunbeamBLEPeripheralManager.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>930EA3F1CFF8D792465B47A58BD6DC9C</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -880,15 +905,35 @@
 			<key>xcLanguageSpecificationIdentifier</key>
 			<string>xcode.lang.ruby</string>
 		</dict>
-		<key>9EBF1D4A672DAA750D4A9CDFAEDDD259</key>
+		<key>9689B44D2D439F74DAA295E9F252DC08</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>92244E5CC995A00F16AE49C0E206A0B9</string>
+				<string>F9D122036F43E40BD1082FC30A8A3F68</string>
+				<string>930EA3F1CFF8D792465B47A58BD6DC9C</string>
+				<string>0B00168AD65FA21C79CC1540DBED69D8</string>
+				<string>7912A10F5AB333055EDC395033CFB483</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Classes</string>
+			<key>path</key>
+			<string>Classes</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9BB7AF2D597A05CA33E7AA0758CA2803</key>
 		<dict>
 			<key>buildActionMask</key>
 			<string>2147483647</string>
 			<key>files</key>
 			<array>
-				<string>48BE59EBB7FF1CA33021EE86DECB7897</string>
-				<string>26E622FD0149AC572229B99D5E3FA446</string>
-				<string>A387FA2BFF26B322395318FF9D79BA17</string>
+				<string>673EAFA6DC790C04435CF207A227B278</string>
+				<string>26A5F767D95B35708A07BF7CECD9CF3F</string>
+				<string>4C69A94030EA445CA9B9758D1E10E8A8</string>
+				<string>2C85B757B82D3F01FF06E907D9EF582D</string>
 			</array>
 			<key>isa</key>
 			<string>PBXHeadersBuildPhase</string>
@@ -910,43 +955,12 @@
 			<key>sourceTree</key>
 			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
-		<key>A387FA2BFF26B322395318FF9D79BA17</key>
-		<dict>
-			<key>fileRef</key>
-			<string>932D116B21A987F6857765C813958588</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
 		<key>A58818EDAE5849AC51F2308B3FACB8F9</key>
 		<dict>
 			<key>fileRef</key>
 			<string>C3EE416560391267FD6388AB0E8A821E</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
-		</dict>
-		<key>AA0514A5823CB1194A4EFAE0520E9BC3</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>190A611F724B9BD73FB76462AB605E80</string>
-				<string>FFC390B06E90275FECD850B1E5589817</string>
-				<string>932D116B21A987F6857765C813958588</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Classes</string>
-			<key>path</key>
-			<string>Classes</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>AA0B8165E2EE8DDF30396E16CE03BBED</key>
 		<dict>
@@ -961,7 +975,7 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>ABF412C9B2E922CA7A546407E84D119A</key>
+		<key>AA66ECFF234AB18917DE55223E68F71B</key>
 		<dict>
 			<key>fileRef</key>
 			<string>07587CE58DAF8D57313C531F5F4557B7</string>
@@ -987,6 +1001,21 @@
 			<string>FC4744E69B5E4368B18D997EDB792696</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
+		</dict>
+		<key>AE3C4C56B966F34268C1FBCFB578FAF1</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>9689B44D2D439F74DAA295E9F252DC08</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>SunbeamBLEPeripheralService</string>
+			<key>path</key>
+			<string>SunbeamBLEPeripheralService</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>B393DE654D2085C24EA72E397E4A9608</key>
 		<dict>
@@ -1393,6 +1422,21 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>DEAF7E04B7A08A32B79CB93B2D1AF205</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>ECE920D9480027742806572FBE32D8AD</string>
+				<string>AA66ECFF234AB18917DE55223E68F71B</string>
+				<string>4EFE3DE2092DF49E0872480BC07B7F90</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
 		<key>E47D1CD86D0547B0CEA870B335A59BF9</key>
 		<dict>
 			<key>buildActionMask</key>
@@ -1458,6 +1502,13 @@
 			<string>Info.plist</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>ECE920D9480027742806572FBE32D8AD</key>
+		<dict>
+			<key>fileRef</key>
+			<string>F9D122036F43E40BD1082FC30A8A3F68</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>ECFCD6D4009496CFBB6E3A0F11C501D8</key>
 		<dict>
@@ -1591,6 +1642,19 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>F9D122036F43E40BD1082FC30A8A3F68</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>SunbeamBLEPeripheralManager.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>FA65A4B3CDA2EA5B38B600F8429675E7</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -1640,19 +1704,6 @@
 			<string>text.xcconfig</string>
 			<key>path</key>
 			<string>Pods-SunbeamBLEPeripheralService_Tests.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FFC390B06E90275FECD850B1E5589817</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>SunbeamBLEPeripheralManager.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>

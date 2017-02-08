@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'SunbeamBLEPeripheralService'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'SunbeamBLEPeripheralService - an ble peripheral service base on core bluetooth.'
 
   s.homepage         = 'https://github.com/sunbeamChen/SunbeamBLEPeripheralService'
