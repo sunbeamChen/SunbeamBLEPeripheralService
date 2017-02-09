@@ -100,7 +100,7 @@
     }
 }
 
-- (void)addPeripheralService:(NSString *)serviceUUIDString characteristics:(NSMutableArray<SunbeamCharacteristic *> *)characteristics didAddPeripheralServiceBlock:(DidAddPeripheralServiceBlock)didAddPeripheralServiceBlock
+- (void)addPeripheralService:(NSString *)serviceUUIDString characteristics:(NSArray<SunbeamCharacteristic *> *)characteristics didAddPeripheralServiceBlock:(DidAddPeripheralServiceBlock)didAddPeripheralServiceBlock
 {
     NSMutableArray* CBCharacteristics = [[NSMutableArray alloc] init];
     for (SunbeamCharacteristic* characteristic in characteristics) {
@@ -112,7 +112,7 @@
         CBMutableCharacteristic *CBCharacteristic = [[CBMutableCharacteristic alloc] initWithType:characteristicUUID properties:characteristic.properties value:value permissions:characteristic.permissions];
         [CBCharacteristics addObject:CBCharacteristic];
         
-        [self.characteristicList setObject:characteristic.characteristicUUIDString forKey:CBCharacteristic];
+        [self.characteristicList setObject:CBCharacteristic forKey:characteristic.characteristicUUIDString];
     }
     
     CBUUID *serviceUUID = [CBUUID UUIDWithString:serviceUUIDString];
@@ -169,6 +169,11 @@
 - (void)stopAdvertising
 {
     [self.sunbeamPeripheralManager stopAdvertising];
+}
+
+- (void)respondToRequest:(CBATTRequest *)request withResult:(CBATTError)result
+{
+    [self.sunbeamPeripheralManager respondToRequest:request withResult:result];
 }
 
 - (void)updateCharacteristicValue:(NSString *)value characteristicUUIDString:(NSString *)characteristicUUIDString didUpdateValueToSubscribeFaliedBlock:(DidUpdateValueToSubscribeFaliedBlock)didUpdateValueToSubscribeFaliedBlock

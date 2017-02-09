@@ -7,12 +7,25 @@
 //
 
 #import "SBPSAppDelegate.h"
+#import <SunbeamBLEPeripheralService/SunbeamBLEPeripheralService.h>
+#import "SVProgressHUD.h"
 
 @implementation SBPSAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+    dispatch_queue_t globalQueue = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0);
+    [[SunbeamBLEPeripheralManager sharedSunbeamBLEPeripheralManager] initSunbeamBLEPeripheralManager:globalQueue options:nil];
+    [[SunbeamBLEPeripheralManager sharedSunbeamBLEPeripheralManager] startListenBluetoothState:^(BOOL isOn) {
+        NSLog(@"蓝牙状态改变:%d", isOn);
+    }];
+    [SVProgressHUD setMinimumDismissTimeInterval:1.3];
+    [SVProgressHUD setDefaultStyle:SVProgressHUDStyleDark];
+    [SVProgressHUD setDefaultMaskType:SVProgressHUDMaskTypeGradient];
+    [SVProgressHUD setDefaultAnimationType:SVProgressHUDAnimationTypeNative];
+    
     return YES;
 }
 

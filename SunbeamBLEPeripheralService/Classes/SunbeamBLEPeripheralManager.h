@@ -81,7 +81,7 @@ typedef void(^DidUpdateValueToSubscribeFaliedBlock)(CBPeripheral* peripheral);
  @param serviceUUIDString 服务UUID
  @param characteristics 服务特征值数组(一个服务对应多个特征值)
  */
-- (void)addPeripheralService:(NSString *)serviceUUIDString characteristics:(NSMutableArray<SunbeamCharacteristic *> *)characteristics didAddPeripheralServiceBlock:(DidAddPeripheralServiceBlock)didAddPeripheralServiceBlock;
+- (void)addPeripheralService:(NSString *)serviceUUIDString characteristics:(NSArray<SunbeamCharacteristic *> *)characteristics didAddPeripheralServiceBlock:(DidAddPeripheralServiceBlock)didAddPeripheralServiceBlock;
 
 /**
  移除所有服务
@@ -99,6 +99,14 @@ typedef void(^DidUpdateValueToSubscribeFaliedBlock)(CBPeripheral* peripheral);
  停止广播数据
  */
 - (void)stopAdvertising;
+
+/**
+ 收到peripheralManager:didReceiveReadRequest:或者peripheralManager:didReceiveWriteRequests:时进行相应请求操作
+
+ @param request 请求
+ @param result 收到数据后操作结果
+ */
+- (void)respondToRequest:(CBATTRequest *)request withResult:(CBATTError)result;
 
 /**
  像订阅指定特征值的中心设备发送数据
